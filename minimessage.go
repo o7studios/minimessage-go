@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func deserialize(input string) (*c.Text, error) {
+func Deserialize(input string) (*c.Text, error) {
 	styleStack := []c.Style{{Color: color.White}}
 
 	var components []c.Component
